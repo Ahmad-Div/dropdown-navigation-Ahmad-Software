@@ -43,7 +43,7 @@ $(document).ready(function () {
     $("#f-mob-up-arrow").click(function () {
         console.log("hello")
         $("#f-mob-list-items").toggle({
-            "display": "grid"
+            "display": "flex"
         })
         if ($("#f-mob-up-arrow").hasClass("rotate-arrow")) {
             $("#f-mob-up-arrow").removeClass("rotate-arrow");
